@@ -4,7 +4,7 @@ This repository contain the solution for [4 problems](https://github.com/manasse
 To solution the problems, it was used Python 3.7.7 and a package of MPI in Python (mpi4py).
 
 ## Instalation
-To install Python you can acess the [oficial site] (https://www.python.org/downloads/) and download it.
+To install Python you can acess the [oficial site](https://www.python.org/downloads/) and download it.
 
 Install the mpi4py package using this comand on your terminal, if you use windows:
 
