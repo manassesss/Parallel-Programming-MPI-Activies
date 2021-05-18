@@ -7,7 +7,7 @@ To solution the problems, it was used Python 3.7.7 and a package of MPI in Pytho
 
 ### Python
 
-To install Python you can acess the [oficial site](https://www.python.org/downloads/) and download it.
+To install Python you can acess the [oficial site](https://www.python.org/downloads/), download it and install it.
 
 ### mpi4py package
 
