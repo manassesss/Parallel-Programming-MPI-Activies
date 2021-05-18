@@ -15,4 +15,4 @@ Install the mpi4py package using this comand on your terminal, if you use window
 
 `pip install mpi4py`
 
-to know more about mpi4py package, you can read de [documentation](https://mpi4py.readthedocs.io/en/stable/index.html)
+to know more about mpi4py package, you can read the [documentation](https://mpi4py.readthedocs.io/en/stable/index.html)
