@@ -5,7 +5,8 @@ To solution the problems, it was used python and a package of MPI in Python (mpi
 
 ## Instalation
 
-to install the mpi4py package use this comand on your terminal, if you use windows:
+Install the mpi4py package using this comand on your terminal, if you use windows:
 
 `pip install mpi4py`
 
+to know more about mpi4py package, you can read de [documentation](https://mpi4py.readthedocs.io/en/stable/index.html)
