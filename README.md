@@ -3,6 +3,8 @@ This repository contain the solution for [4 problems](https://github.com/manasse
 
 To solution the problems, it was used Python 3.7.7 and a package of MPI in Python (mpi4py).
 
+---
+
 ## :computer: Pre-requirements
 
 ### Python
@@ -23,6 +25,8 @@ To know more about mpi4py package, you can read the [documentation](https://mpi4
 
 The machines used in this work was pre-configured by the professor and it is available [here](https://drive.google.com/open?id=1NnBFK06xK9eQt6oCHq9XZdCYesFZMstm&authuser=weslley%40ufpi.edu.br&usp=drive_fs)
 
+---
+
 ## ⚙️ Assembly of clusters
 
 In each machine's settings, add the project folder to the shared folders as follows:
@@ -41,6 +45,8 @@ Afterwards, use the following command on all machines:
 sudo mount -t vboxsf cloud /home/mpiuser/cloud
 ```
 
+---
+
 ## 🚀 Running the scripts
 
 Now, just run the codes by machine 1, doing:
@@ -53,3 +59,7 @@ mpiexec -np 8 --hostfile maqs.txt python3 1_mpi.py
 OBS.: 
 * the number after *np* is the number of process in each version, you can use change this number if you want.
 * in this case, the code that we use here was *1_mpi.py*
+
+---
+
+Developed with 🖤 by Manassés Silva dos Santos
