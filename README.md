@@ -35,13 +35,13 @@ In each machine's settings, add the project folder to the shared folders as foll
 
 At the terminal of machines 2, 3 and 4, use the following commands:
 
-```
+``` shell
 sudo su -
 mount -t nfs maq1:/home/mpiuser/cloud /home/mpiuser/cloud
 ```
 Afterwards, use the following command on all machines:
 
-```
+``` shell
 sudo mount -t vboxsf cloud /home/mpiuser/cloud
 ```
 
@@ -51,7 +51,7 @@ sudo mount -t vboxsf cloud /home/mpiuser/cloud
 
 Now, just run the codes by machine 1, doing:
 
-```
+``` shell
 su - mpiuser
 cd cloud
 mpiexec -np 8 --hostfile maqs.txt python3 1_mpi.py
